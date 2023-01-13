@@ -1,0 +1,17 @@
+{
+    "name": "slib",
+    "title": "Spheres library module",
+    "description": "",
+    "author": "bubliq_dronkom",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.5.0",
+    "scripts": [
+        "3rd-party/lodash.min.js"
+    ],
+    "esmodules": [
+        "bin/bundle.js"
+    ],
+    "styles":[
+        "/styles/main.css"
+    ]
+}
