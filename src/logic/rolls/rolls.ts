@@ -34,7 +34,7 @@ export class Rolls {
 
         return result;
     }
-    async roll10(options?: RollArgsBase) {
+    async d10(options?: RollArgsBase) {
         const result = await this.rollDice({
             dice: 10,
             ...options,
@@ -43,7 +43,7 @@ export class Rolls {
         return result;
     }
     
-    async roll12(options?: RollArgsBase) {
+    async d12(options?: RollArgsBase) {
         const result = await this.rollDice({
             dice: 12,
             ...options,
