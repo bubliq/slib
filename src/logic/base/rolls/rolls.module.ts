@@ -3,7 +3,7 @@ import { RollArgs } from "./RollArgs";
 import { RollArgsBase } from "./RollArgsBase";
 import { RollResult } from "./RollResult";
 
-export class Rolls {
+export class RollsModule {
     async roll(formula: string, options = { async: true }) {
         const roll = new Roll(formula);
         const result = await roll.roll(options);
